@@ -5,8 +5,8 @@
 ESP32ZabbixSender zSender;
 
 /* conf WiFi */
-String ssid = "NPITI-IoT";
-String pass = "NPITI-IoT";
+String ssid = "SEU_SSID";
+String pass = "SUA_SENHA";
 
 /* conf do servidor Zabbix */
 #define SERVERADDR 10,7,221,242// endereço ip do servidor Zabbix
@@ -30,7 +30,6 @@ void setup() {
 }
 
 void loop() {
-	//checkConnection();							  // Verifica conexão WiFi
 	vTaskDelay(1000/portTICK_RATE_MS);
 }
 
