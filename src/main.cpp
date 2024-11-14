@@ -6,10 +6,8 @@
 ESP32ZabbixSender zSender;
 
 /* conf WiFi */
-// String ssid = "HUBBI-IoT-IMD";
-// String pass = "iot@hubbi#";
-String ssid = "NPITI-IoT";
-String pass = "NPITI-IoT";
+String ssid = "ssid";
+String pass = "pass";
 
 /* conf do servidor Zabbix */
 #define SERVERADDR 10, 7, 8, 19 // endereço ip do servidor Zabbix
